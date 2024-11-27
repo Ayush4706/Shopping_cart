@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 50px;
+    background-color: rgb(183, 166, 166);
+
+}
+
+.desc{
+    max-width: 400px;
+    word-wrap: break-word;
+    overflow: hidden;
+}

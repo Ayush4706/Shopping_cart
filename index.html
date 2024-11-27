@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cdac Shoping</title>
+  </head>
+
+  <body onload="startClock()">
+    <header class="d-flex justify-content-center align-item-center">
+      <h1 class="d-flex justify-content-between w-100 align-item-center text-success">
+        Welcome to CDAC 
+        <span id="tm" class="badge badge bg-info rounded-pill text-muted "></span>
+      </h1>
+    </header>
+
+    <main>
+          
+    <center> 
+        <h2>
+            Shopping Cart
+        </h2>
+    </center>
+
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Image</th>
+                <th scope="col">Description</th>
+                <th scope="col">Rate</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+                <th scope="col">Select</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr>
+                <th scope="row"><img src="" alt=""></th>
+                <td><p class="desc"> sed quisquam rerum commodi repudiandae.</p></td>
+                <td>300</td>
+                <td>5</td>
+                <td>1500</td>
+                <td><input type="checkbox" class="row-selector"></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><img src="" alt=""></th>
+                <td><p class="desc"> quisquam rerum commodi repudiandae.</p></td>
+                <td>300</td>
+                <td>5</td>
+                <td>1500</td>
+                <td><input type="checkbox" class="row-selector"></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><img src="" alt=""></th>
+                <td><p class="desc">Tempora consequatur cum ex quaerat sapiente explicabo sed quisquam rerum commodi repudiandae.</p></td>
+                <td>300</td>
+                <td>5</td>
+                <td>1500</td>
+                <td><input type="checkbox" class="row-selector"></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><img src="" alt=""></th>
+                <td><p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p></td>
+                <td>300</td>
+                <td>5</td>
+                <td>1500</td>
+                <td><input type="checkbox" class="row-selector"></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><img src="" alt=""></th>
+                <td><p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p></td>
+                <td>300</td>
+                <td>5</td>
+                <td>1500</td>
+                <td><input type="checkbox" class="row-selector"></td>
+              </tr>
+             
+            </tbody>
+          </table>
+          
+         
+    </main>
+
+    <footer>
+        <div id="result" class="mt-3">
+            <h4>Total Amount of Selected Items: <span id="totalAmt">0</span></h4>
+          </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
